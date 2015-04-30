@@ -168,10 +168,10 @@ require_once('php/properties.php');
                                 <div class="contact-info">
                                     <h3 class="main-heading"><span>Contact info</span></h3>
                                     <ul>
-                                        <li>Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia<br /><br /></li>
-                                        <li>Email: John.smith@gmail.com</li>
-                                        <li>Phone: +123 456 789 111</li>
-                                        <li>Website: www.johnsmith.com</li>
+                                        <li><?=MY_ADDRESS;?><br /><br /></li>
+                                        <li>Email: <?=MY_EMAIL2;?></li>
+                                        <li>Phone: <?=MY_PHONE;?></li>
+                                        <li>Website: <?="sfandrianah.pe.hu";?></li>
                                     </ul>
                                 </div>
                                 <!-- /Contact Info -->
@@ -205,7 +205,7 @@ require_once('php/properties.php');
 
                         <!-- Footer -->
                         <div class="footer">
-                            <div class="copyright">Copyright © 2012 John smith</div>
+                            <div class="copyright">Copyright © 2015 <?=MY_NAME;?></div>
                         </div>
                         <!-- /Footer --> 
 
